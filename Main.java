@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        for(byte i = 0; i <= 10; i++){
-            for(byte g = 0; g <= 10; g++){
-                System.out.printf("%d * %d = %d \n",i,g,(i*g));
+        for(int num = 1; num <= 10; num++) {
+            for(int i = 1; i <= 10; i++) {
+                System.out.println(num+"*"+i+" = "+num*i);
             }
-            System.out.println("=========");
         }
     }
-}
+}    
